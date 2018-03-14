@@ -1,0 +1,132 @@
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+#header {
+    padding-top: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 56px;
+    position: static;
+
+}
+
+#container {
+    background-color: #232323;
+    position: relative;
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+    background-color: #232323;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #80808080;
+    border-color: #d9d9d9;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 12px 80px;
+    border-radius: 50px;
+}
+
+
+ /*.btn-custom {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+} */
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62
+}
+
+.btn-custom.focus,
+.btn-custom:focus {
+    box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5)
+}
+
+.btn-custom.disabled,
+.btn-custom:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d
+}
+
+.btn-custom:not(:disabled):not(.disabled).active,
+.btn-custom:not(:disabled):not(.disabled):active,
+.show > .btn-custom.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b
+}
+
+.btn-custom:not(:disabled):not(.disabled).active:focus,
+.btn-custom:not(:disabled):not(.disabled):active:focus,
+.show > .btn-custom.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5)
+}
+
+.btn-md {
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: .4rem .8rem !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+    .align-left,
+    .align-center,
+    .align-right,
+    .mbr-section-btn,
+    .mbr-section-title {
+        text-align: center;
+    }
+}
+
+
+.mbr-section-btn {
+    font-size: 0;
+    text-align: center;
+    padding-top: 200px;
+   margin-right: 220px;
+}
+
+nav .mbr-section-btn {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 7px;
+    width: 100%;
+    background-color: #191919;
+    color: white;
+    text-align: center;
+    
+}
+
+#active {
+	color: #FFFFFF;
+}
