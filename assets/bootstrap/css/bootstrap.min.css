@@ -8035,4 +8035,7 @@ button.close {
     }
 }
 
-/*# sourceMappingURL=bootstrap.min.css.map */
+
+.navbar-toggle .icon-bar + .icon-bar + .icon-bar {
+     margin-top: 4px
+}
