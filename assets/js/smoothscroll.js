@@ -34,3 +34,14 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+// Hide if it's less than 100 pixels
+$(window).bind('scroll', function() {
+     if ($(window).scrollTop() < 100) {
+         $('#uptop').hide();
+     }
+     else {
+         $('#uptop').show();
+     }
+});

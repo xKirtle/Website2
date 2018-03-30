@@ -227,9 +227,11 @@ i {
 }
 
 .scrolltop {
+    position: fixed;
     padding-top: 10px;
     display: inline;
     margin: 0 15px 15px 0;
-    opacity: 0.5;
+    opacity: 0.6;
+    margin-bottom: 50px;
     filter: alpha(opacity=50);
 }
